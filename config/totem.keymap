@@ -93,7 +93,7 @@ label= "NAVI"                              ;
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃           ┃           ┃   C LOCK  ┃           ┃  P DOWN   ┃           ┃   ┃     +     ┃     -     ┃     =     ┃     [     ┃     ]     ┃     \     ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃           ┃    TAB    ┃    SPC    ┃   ┃    DEL    ┃     0     ┃           ┃
+//                                     ┃           ┃    TAB    ┃    SPC    ┃   ┃           ┃           ┃           ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
@@ -101,7 +101,7 @@ label= "NAVI"                              ;
                 &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_N4   &kp KP_N5       &kp KP_N6   &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_N0
                 &trans      &trans      &trans      &kp PG_UP   &trans          &trans      &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT
     &trans      &trans      &kp CAPS    &trans      &kp PG_DN   &trans         &kp KP_PLUS &kp KP_MINUS &kp KP_EQUAL &kp LBKT    &kp RBKT      &kp BSLH      
-                                        &trans      &trans      &trans          &mo ADJ     &kp KP_N0   &trans      
+                                        &trans      &trans      &trans          &trans      &trans      &trans      
                         >;
                 };
 
